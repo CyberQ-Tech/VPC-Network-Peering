@@ -92,7 +92,7 @@ Note: I used the same steps to create VM #2 with these exceptions:
 
 ![VM 3]( https://i.imgur.com/2Nep4SO.jpg)
 
-<b>VM 2</b>
+<b>VM #2</b>
 
 ![VM 4]( https://i.imgur.com/YJ9DOJ4.jpg)
 
@@ -102,11 +102,11 @@ Note: I used the same steps to create VM #2 with these exceptions:
 In this phase, the connection between both VPCs is tested using SSH. This is accomplished by attempting to ping the opposing VPC using its internal IP address. This ping will fail, and all data packets will be lost because VPC Peering has not been configured. 
 
 
-VM #1 Attempting to Ping VM #2: The data packets for the internal IP are lost. Only the external IP is reachable.
+<b>VM #1 Attempting to Ping VM #2: The data packets for the internal IP are lost. Only the external IP is reachable.</b>
 
 ![SSH 1]( https://i.imgur.com/NPnDCQs.jpg)
 
-VM #2 Attempting to Ping VM #1: The data packets for the internal IP are lost. Only the external IP is reachable.
+<b>VM #2 Attempting to Ping VM #1: The data packets for the internal IP are lost. Only the external IP is reachable.</b>
 
 ![SSH 2]( https://i.imgur.com/FKxe1nn.jpg)
 
@@ -125,17 +125,17 @@ o	Note: Peering must be configured on both networks sides to be successful
 
 ![Peer 1]( https://i.imgur.com/331P3ZV.jpg)
 
-Peering VPC #1 to #2
+<b>Peering VPC #1 to #2</b>
 ![Peer 2]( https://i.imgur.com/ZPsbYFd.jpg)
 
-Peering VPC #2 to VPC #1
+<b>Peering VPC #2 to VPC #1</b>
 ![Peer 3]( https://i.imgur.com/tpBzuSJ.jpg)
 
 ![Peer 4](https://i.imgur.com/0N5mcoM.jpg)
 
 ## Confirming the Secure Connection is Working
 
-VPC #1 communicates with VPC #2
+<b>VPC #1 communicates with VPC #2</b>
 ![SSH 3](https://i.imgur.com/LaJJ5zl.jpg)
 
 <b>VPC #2 communicates with VPC #1</b>
