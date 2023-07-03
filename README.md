@@ -58,7 +58,7 @@ Note: I used the same steps to create the VPC #2 with these exceptions:
 -	Different VPC name and subnet
 -	Placed VPC #2 in a different region
 -	Configured a different IPv4 range (ex: 172.16.0.0/24)
-o	This ensures no collision between IP ranges between the VPCs
+  --	This ensures no collision between IP ranges between the VPCs
 
 
 ## Part 2: Creating Virtual Machines and Subnetting
@@ -73,3 +73,22 @@ Some of the configurations used to accomplish this include:
 <b>VM Deployment</b>
 
 ![VM 1]( https://i.imgur.com/OrjqED1.jpg)
+
+![VM 2]( https://i.imgur.com/wnWDsn8.jpg)
+
+<br/>
+<b>Linking Subnet to VPC</b>
+![Link Subnet 1]( https://i.imgur.com/xTtcJHH.jpg)
+
+![Link Subnet 2]( https://i.imgur.com/abTFyP1.jpg)
+
+Note: I used the same steps to create VM #2 with these exceptions:
+
+-	Different name
+-	Placed VM #2 in a different region
+-	Linked VPC to subnet 
+
+
+![VM 3]( https://i.imgur.com/2Nep4SO.jpg)
+
+
