@@ -78,6 +78,7 @@ Some of the configurations used to accomplish this include:
 
 <br/>
 <b>Linking Subnet to VPC</b>
+
 ![Link Subnet 1]( https://i.imgur.com/xTtcJHH.jpg)
 
 ![Link Subnet 2]( https://i.imgur.com/abTFyP1.jpg)
@@ -90,5 +91,20 @@ Note: I used the same steps to create VM #2 with these exceptions:
 
 
 ![VM 3]( https://i.imgur.com/2Nep4SO.jpg)
+
+<b>VM 2</b>
+
+![VM 4]( https://i.imgur.com/YJ9DOJ4.jpg)
+
+
+## Part 3: Test Internal IP Connection via SSH
+
+In this phase, the connection between both VPCs is tested using SSH. This is accomplished by attempting to ping the opposing VPC using its internal IP address. This ping will fail, and all data packets will be lost because VPC Peering has not been configured. 
+
+
+![SSH 1]( https://i.imgur.com/NPnDCQs.jpg)
+
+VM #1 Attempting to Ping VM #2: The data packets for the internal IP are lost. Only the external IP is reachable.
+
 
 
