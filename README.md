@@ -43,5 +43,6 @@ Some of the configurations used to accomplish this include:
 
 <br/>
 <b>Subnet and Region</b>
+
 ![Subnet 1]( https://i.imgur.com/bjM8WQU.jpg)
 
