@@ -121,7 +121,28 @@ Some of the configurations used to accomplish this include:
 o	Note: Peering must be configured on both networks sides to be successful
 -	Testing Communication via SSH
 
+<b>VPC Peering</b>
+
 ![Peer 1]( https://i.imgur.com/331P3ZV.jpg)
 
+Peering VPC #1 to #2
+![Peer 2]( https://i.imgur.com/ZPsbYFd.jpg)
+
+Peering VPC #2 to VPC #1
+![Peer 3]( https://i.imgur.com/tpBzuSJ.jpg)
+
+![Peer 4](https://i.imgur.com/0N5mcoM.jpg)
+
+## Confirming the Secure Connection is Working
+
+VPC #1 communicates with VPC #2
+![SSH 3](https://i.imgur.com/LaJJ5zl.jpg)
+
+VPC #2 communicates with VPC #1
+![SSH 4](https://i.imgur.com/KHloil7.jpg)
+
+## Conclusion
+
+This project showcased the importance of establishing a secure tunnel for communication with different networks. Many network and data breaches occur as a result of communication being intercepted in the form of On-path (Man-in-the-Middle) attacks. VPC peering is one of the ways to prevent network communication from being hijacked.
 
 
