@@ -102,9 +102,26 @@ Note: I used the same steps to create VM #2 with these exceptions:
 In this phase, the connection between both VPCs is tested using SSH. This is accomplished by attempting to ping the opposing VPC using its internal IP address. This ping will fail, and all data packets will be lost because VPC Peering has not been configured. 
 
 
+VM #1 Attempting to Ping VM #2: The data packets for the internal IP are lost. Only the external IP is reachable.
+
 ![SSH 1]( https://i.imgur.com/NPnDCQs.jpg)
 
-VM #1 Attempting to Ping VM #2: The data packets for the internal IP are lost. Only the external IP is reachable.
+VM #2 Attempting to Ping VM #1: The data packets for the internal IP are lost. Only the external IP is reachable.
+
+![SSH 2]( https://i.imgur.com/FKxe1nn.jpg)
+
+
+## Part 4: Configuring VPC Network Peering and Testing Communication
+
+In this phase, a secure network connection is established between the two networks via VPC peering. Despite linking the networks in the previous phase, VPC peering still needs to be enabled in order for secure communication to take place internally. 
+
+Some of the configurations used to accomplish this include: 
+
+-	Configured VPC Peering
+o	Note: Peering must be configured on both networks sides to be successful
+-	Testing Communication via SSH
+
+![Peer 1]( https://i.imgur.com/331P3ZV.jpg)
 
 
 
