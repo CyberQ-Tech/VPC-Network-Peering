@@ -46,3 +46,30 @@ Some of the configurations used to accomplish this include:
 
 ![Subnet 1]( https://i.imgur.com/bjM8WQU.jpg)
 
+![Subnet 2]( https://i.imgur.com/OOqDSar.jpg)
+
+<br/>
+<b>Firewall Rules</b>
+
+![Firewall 1]( https://i.imgur.com/05Q1mwt.jpg)
+
+Note: I used the same steps to create the VPC #2 with these exceptions:
+
+-	Different VPC name and subnet
+-	Placed VPC #2 in a different region
+-	Configured a different IPv4 range (ex: 172.16.0.0/24)
+o	This ensures no collision between IP ranges between the VPCs
+
+
+## Part 2: Creating Virtual Machines and Subnetting
+
+In this phase, the two virtual machines are created, and one is placed in each of the VPC networks. In addition, the VMs are linked to the proper subnets to ensure only ingress communication from the approved subnet range is allowed. 
+
+Some of the configurations used to accomplish this include: 
+
+-	Created (2) Virtual Machines
+-	Subnetting IP Addresses
+
+<b>VM Deployment</b>
+
+![VM 1]( https://i.imgur.com/OrjqED1.jpg)
