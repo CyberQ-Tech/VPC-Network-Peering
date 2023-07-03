@@ -138,7 +138,7 @@ Peering VPC #2 to VPC #1
 VPC #1 communicates with VPC #2
 ![SSH 3](https://i.imgur.com/LaJJ5zl.jpg)
 
-VPC #2 communicates with VPC #1
+<b>VPC #2 communicates with VPC #1</b>
 ![SSH 4](https://i.imgur.com/KHloil7.jpg)
 
 ## Conclusion
