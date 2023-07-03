@@ -38,3 +38,9 @@ Some of the configurations used to accomplish this include:
 <b>VPC Deployment</b>
 
 ![VPC 1]( https://i.imgur.com/nG6V9bJ.jpg)
+
+![VPC 2]( https://i.imgur.com/avTIvsx.jpg)
+
+<b>Subnet and Region</b>
+![Subnet 1]( https://i.imgur.com/bjM8WQU.jpg)
+
