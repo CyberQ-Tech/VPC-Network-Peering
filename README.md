@@ -41,6 +41,7 @@ Some of the configurations used to accomplish this include:
 
 ![VPC 2]( https://i.imgur.com/avTIvsx.jpg)
 
+<br/>
 <b>Subnet and Region</b>
 ![Subnet 1]( https://i.imgur.com/bjM8WQU.jpg)
 
